@@ -70,19 +70,24 @@ body{
 }
 
 header{
-  background-color: purple;
-  border: 10px #00f0ff solid;
-  border-radius: 20px;
-}
-header .maintitle{
   display:flex;
   justify-content:center;
   align-items:center;
+}
+header .maintitle{
+  display: block;
+  position: relative;
+  border: 3px #00f0ff solid;
+  border-radius: 20px;
+  padding: 5px;
 }
 header .maintitle .subtitle{
   background-color: coral;
   border-radius: 10px;
   border: 3px solid rgb(255, 68, 0);
+  position: absolute;
+  bottom: -3px;
+  right: -30px;
 }
 h1>a{
   text-align: center;
@@ -90,22 +95,21 @@ h1>a{
   color: #00f0ff;
 }
 header .searchcontent{
-  background: antiquewhite;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  background: yellowgreen;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
 }
 header .searchcontent .searchbox{
-  background: blueviolet;
+  background-color: aquamarine;
   display: inline;
+
 }
 header .searchcontent .searchbtn{
-  background: yellow;
   display: inline;
 }
 
 article{
-  background: wheat;
   margin: 50px;
   display:flex;
   justify-content:center;
@@ -125,7 +129,6 @@ article .art{
 }
 
 footer{
-  background: rgb(27, 88, 255);
   display:flex;
   justify-content:center;
   align-items:center;
