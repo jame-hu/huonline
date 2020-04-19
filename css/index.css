@@ -82,6 +82,7 @@ header .maintitle{
 header .maintitle .subtitle{
   background-color: coral;
   border-radius: 10px;
+  border: 3px solid rgb(255, 68, 0);
 }
 h1>a{
   text-align: center;
@@ -124,9 +125,10 @@ article .art{
 }
 
 footer{
-  /* display:flex;
+  background: rgb(27, 88, 255);
+  display:flex;
   justify-content:center;
-  align-items:center; */
+  align-items:center;
 }
 h3{
   text-align: center;
@@ -135,7 +137,17 @@ h3{
 }
 footer .beian{
   background-color: bisque;
-  height: 50px;
+  height: 100px;
   text-align: center;
   font-size: 15px;
+}
+footer .codeinfo{
+  background-color: antiquewhite;
+  margin: 10px;
+  padding: 10px;
+  color: darkblue;
+}
+footer img{
+  width: 100px;
+  height: 100px;
 }
